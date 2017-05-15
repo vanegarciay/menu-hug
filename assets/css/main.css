@@ -140,16 +140,17 @@ nav ul li{
 }
 
 nav ul li a{
-    color: withe;
+    color: white;
     width: 100%;
     display: block;
     padding: 8px 0 0;
     letter-spacing: -0.06em;
+    text-decoration: none;
 }
 
 nav ul li a:hover{
     color: #ec008c;
-    background-color: withe;
+    background-color: white;
 }
 
 nav.open ul{
@@ -164,4 +165,28 @@ nav.open ul li{
     color: #fff;
     font-size: 60px;
     visibility: visible !important;
+}
+
+nav .header-in{
+    background-color: rgba(217,40,130, 0.9);
+}
+
+.solid #toggle .menu{
+    background: #fff;
+}
+
+.solid #toggle .menu:after{
+    background: #fff;
+}
+
+.solid #toggle .menu:before{
+    background: #fff;
+}
+
+.open .logo{
+    background-image: url(../img/logo_white.png);
+}
+
+.overflow-hidden{
+    overflow: hidden;
 }
